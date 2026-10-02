@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Toko Wijaya Kusuma Elektronik - menyediakan berbagai kebutuhan elektronik rumah tangga dan sehari-hari."
+    >
+
+    <title>Toko Wijaya Kusuma Elektronik</title>
+
+    <!-- CSS UTAMA -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <div class="logo-area">
+                <div class="logo">⚡</div>
+
+                <div class="logo-text">
+                    <h2>Wijaya Kusuma</h2>
+                    <span>Elektronik</span>
+                </div>
+            </div>
+
+            <button
+                class="menu-button"
+                type="button"
+                onclick="toggleMenu()"
+                aria-label="Buka menu"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kategori">Kategori</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+
+            <button
+                class="cart-button"
+                type="button"
+                onclick="openCart()"
+            >
+                🛒 Keranjang
+                <span id="cartBadge">0</span>
+            </button>
+
+        </div>
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+    <header class="hero" id="beranda">
+        <div class="hero-container">
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    ⚡ Solusi Elektronik untuk Rumah Anda
+                </div>
+
+                <h1>
+                    Toko
+                    <span>Wijaya Kusuma</span>
+                    Elektronik
+                </h1>
+
+                <p>
+                    Menyediakan berbagai kebutuhan elektronik
+                    rumah tangga dan sehari-hari dengan berbagai
+                    pilihan produk.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#produk" class="btn btn-primary">
+                        🛒 Lihat Produk
+                    </a>
+
+                    <a href="#kontak" class="btn btn-outline">
+                        💬 Hubungi Kami
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- =====================================================
+         KEUNGGULAN
+    ====================================================== -->
+    <section class="section">
+        <div class="section-heading">
+            <span>Keunggulan</span>
+
+            <h2>Kenapa Pilih Kami?</h2>
+
+            <p>
+                Berbagai alasan untuk memilih
+                Toko Wijaya Kusuma Elektronik.
+            </p>
+        </div>
+
+        <div class="advantages">
+
+            <div class="advantage">
+                <div class="advantage-icon">🏆</div>
+
+                <h3>Produk Berkualitas</h3>
+
+                <p>
+                    Menyediakan berbagai pilihan
+                    produk elektronik.
+                </p>
+            </div>
+
+            <div class="advantage">
+                <div class="advantage-icon">💰</div>
+
+                <h3>Harga Bersahabat</h3>
+
+                <p>
+                    Harga disesuaikan dengan
+                    kebutuhan pelanggan.
+                </p>
+            </div>
+
+            <div class="advantage">
+                <div class="advantage-icon">🤝</div>
+
+                <h3>Pelayanan Ramah</h3>
+
+                <p>
+                    Siap membantu kebutuhan
+                    elektronik pelanggan.
+                </p>
+            </div>
+
+            <div class="advantage">
+                <div class="advantage-icon">📍</div>
+
+                <h3>Lokasi Toko</h3>
+
+                <p>
+                    Jl. Jogorogo - Paron,
+                    Ngawi.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =====================================================
+         TENTANG
+    ====================================================== -->
+    <section class="section" id="tentang">
+        <div class="about">
+
+            <div class="about-text">
+                <span class="section-label">
+                    TENTANG TOKO
+                </span>
+
+                <h2>
+                    Selamat Datang di
+                    Wijaya Kusuma Elektronik
+                </h2>
+
+                <p>
+                    Toko Wijaya Kusuma Elektronik menyediakan
+                    berbagai macam produk elektronik untuk
+                    kebutuhan rumah tangga dan sehari-hari.
+                </p>
+
+                <p>
+                    Kami menyediakan berbagai pilihan seperti
+                    antena digital, speaker, kipas angin,
+                    magic com, radio, blender dan berbagai
+                    perlengkapan elektronik lainnya.
+                </p>
+
+                <p>
+                    Silakan datang langsung ke toko atau
+                    hubungi kami melalui WhatsApp untuk
+                    informasi produk.
+                </p>
+            </div>
+
+
+            <div class="about-card">
+                <h3>📍 Informasi Toko</h3>
+
+                <div class="info-row">
+                    <span>🏠</span>
+
+                    <div>
+                        <strong>Alamat</strong>
+                        <br>
+                        Jl. Jogorogo - Paron, Ngawi
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <span>🕐</span>
+
+                    <div>
+                        <strong>Jam Buka</strong>
+                        <br>
+                        07.30 - 16.30 WIB
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <span>📞</span>
+
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <br>
+                        0852-3536-7997
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =====================================================
+         PRODUK
+    ====================================================== -->
+    <section class="section" id="produk">
+
+        <div class="section-heading">
+            <span>Produk</span>
+
+            <h2>Produk Elektronik</h2>
+
+            <p>
+                Pilih produk yang kamu butuhkan.
+            </p>
+        </div>
+
+
+        <!-- SEARCH -->
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Cari produk..."
+                onkeyup="searchProduct()"
+            >
+        </div>
+
+
+        <!-- FILTER -->
+        <div class="categories">
+
+            <button
+                class="category-btn active"
+                type="button"
+                onclick="filterProduct('all', this)"
+            >
+                Semua
+            </button>
+
+            <button
+                class="category-btn"
+                type="button"
+                onclick="filterProduct('rumah', this)"
+            >
+                🏠 Rumah Tangga
+            </button>
+
+            <button
+                class="category-btn"
+                type="button"
+                onclick="filterProduct('audio', this)"
+            >
+                🔊 Audio
+            </button>
+
+            <button
+                class="category-btn"
+                type="button"
+                onclick="filterProduct('elektronik', this)"
+            >
+                ⚡ Elektronik
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT GRID -->
+        <div class="product-grid" id="productGrid">
+
+            <!-- ANTENA -->
+            <article
+                class="product-card"
+                data-category="elektronik"
+                data-name="antena digital"
+                data-price="75000"
+                data-image="antena.jpg"
+            >
+                <div class="product-image">
+                    <img src="antena.jpg" alt="Antena Digital">
+
+                    <span class="product-badge">
+                        Populer
+                    </span>
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">
+                        Elektronik
+                    </span>
+
+                    <h3>Antena Digital</h3>
+
+                    <p>
+                        Antena digital dengan siaran jernih
+                        dan gambar lebih tajam.
+                    </p>
+
+                    <div class="price">
+                        Rp 75.000
+                    </div>
+
+                    <div class="product-buttons">
+                        <button
+                            class="btn-cart"
+                            type="button"
+                            onclick="addCart('Antena Digital', 75000, 'antena.jpg')"
+                        >
+                            🛒 Tambah
+                        </button>
+
+                        <a
+                            class="btn-buy"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://wa.me/6285235367997?text=Halo%20saya%20ingin%20menanyakan%20Antena%20Digital"
+                        >
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- SPEAKER -->
+            <article
+                class="product-card"
+                data-category="audio"
+                data-name="speaker bluetooth"
+                data-price="150000"
+                data-image="speker butut.jpg"
+            >
+                <div class="product-image">
+                    <img
+                        src="speker butut.jpg"
+                        alt="Speaker Bluetooth"
+                    >
+
+                    <span class="product-badge">
+                        Favorit
+                    </span>
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">
+                        Audio
+                    </span>
+
+                    <h3>Speaker Bluetooth</h3>
+
+                    <p>
+                        Speaker dengan suara jernih
+                        untuk berbagai kebutuhan.
+                    </p>
+
+                    <div class="price">
+                        Rp 150.000
+                    </div>
+
+                    <div class="product-buttons">
+                        <button
+                            class="btn-cart"
+                            type="button"
+                            onclick="addCart('Speaker Bluetooth', 150000, 'speker butut.jpg')"
+                        >
+                            🛒 Tambah
+                        </button>
+
+                        <a
+                            class="btn-buy"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://wa.me/6285235367997?text=Halo%20saya%20ingin%20menanyakan%20Speaker%20Bluetooth"
+                        >
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- KIPAS -->
+            <article
+                class="product-card"
+                data-category="rumah"
+                data-name="kipas angin"
+                data-price="250000"
+                data-image="kipas angin.jpg"
+            >
+                <div class="product-image">
+                    <img src="kipas angin.jpg" alt="Kipas Angin">
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">
+                        Rumah Tangga
+                    </span>
+
+                    <h3>Kipas Angin</h3>
+
+                    <p>
+                        Kipas angin untuk membantu
+                        memberikan kesejukan.
+                    </p>
+
+                    <div class="price">
+                        Rp 250.000
+                    </div>
+
+                    <div class="product-buttons">
+                        <button
+                            class="btn-cart"
+                            type="button"
+                            onclick="addCart('Kipas Angin', 250000, 'kipas angin.jpg')"
+                        >
+                            🛒 Tambah
+                        </button>
+
+                        <a
+                            class="btn-buy"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://wa.me/6285235367997?text=Halo%20saya%20ingin%20menanyakan%20Kipas%20Angin"
+                        >
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- MAGIC COM -->
+            <article
+                class="product-card"
+                data-category="rumah"
+                data-name="magic com"
+                data-price="300000"
+                data-image="mejikom.jpg"
+            >
+                <div class="product-image">
+                    <img src="mejikom.jpg" alt="Magic Com">
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">
+                        Rumah Tangga
+                    </span>
+
+                    <h3>Magic Com</h3>
+
+                    <p>
+                        Magic com praktis untuk
+                        kebutuhan memasak.
+                    </p>
+
+                    <div class="price">
+                        Rp 300.000
+                    </div>
+
+                    <div class="product-buttons">
+                        <button
+                            class="btn-cart"
+                            type="button"
+                            onclick="addCart('Magic Com', 300000, 'mejikom.jpg')"
+                        >
+                            🛒 Tambah
+                        </button>
+
+                        <a
+                            class="btn-buy"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://wa.me/6285235367997?text=Halo%20saya%20ingin%20menanyakan%20Magic%20Com"
+                        >
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- RADIO -->
+            <article
+                class="product-card"
+                data-category="audio"
+                data-name="radio"
+                data-price="100000"
+                data-image="radio.jpg"
+            >
+                <div class="product-image">
+                    <img src="radio.jpg" alt="Radio">
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">
+                        Audio
+                    </span>
+
+                    <h3>Radio</h3>
+
+                    <p>
+                        Radio dengan suara jernih
+                        dan mudah dibawa.
+                    </p>
+
+                    <div class="price">
+                        Rp 100.000
+                    </div>
+
+                    <div class="product-buttons">
+                        <button
+                            class="btn-cart"
+                            type="button"
+                            onclick="addCart('Radio', 100000, 'radio.jpg')"
+                        >
+                            🛒 Tambah
+                        </button>
+
+                        <a
+                            class="btn-buy"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://wa.me/6285235367997?text=Halo%20saya%20ingin%20menanyakan%20Radio"
+                        >
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- BLENDER -->
+            <article
+                class="product-card"
+                data-category="rumah"
+                data-name="blender"
+                data-price="200000"
+                data-image="bender.jpg"
+            >
+                <div class="product-image">
+                    <img src="bender.jpg" alt="Blender">
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">
+                        Rumah Tangga
+                    </span>
+
+                    <h3>Blender</h3>
+
+                    <p>
+                        Blender untuk membuat jus
+                        dan minuman segar.
+                    </p>
+
+                    <div class="price">
+                        Rp 200.000
+                    </div>
+
+                    <div class="product-buttons">
+                        <button
+                            class="btn-cart"
+                            type="button"
+                            onclick="addCart('Blender', 200000, 'bender.jpg')"
+                        >
+                            🛒 Tambah
+                        </button>
+
+                        <a
+                            class="btn-buy"
+                            target="_blank"
+                            rel="noopener"
+                            href="https://wa.me/6285235367997?text=Halo%20saya%20ingin%20menanyakan%20Blender"
+                        >
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- =====================================================
+         KATEGORI
+    ====================================================== -->
+    <section class="category-area" id="kategori">
+        <div class="category-inner">
+
+            <div class="section-heading">
+                <span>Kategori</span>
+
+                <h2>Kategori Produk</h2>
+
+                <p>
+                    Berbagai kebutuhan elektronik
+                    tersedia di toko kami.
+                </p>
+            </div>
+
+
+            <div class="category-list">
+
+                <div class="category-item">
+                    <div class="icon">💡</div>
+
+                    <h3>Lampu</h3>
+
+                    <p>
+                        Berbagai kebutuhan lampu
+                        dan penerangan.
+                    </p>
+                </div>
+
+
+                <div class="category-item">
+                    <div class="icon">🔌</div>
+
+                    <h3>Kabel</h3>
+
+                    <p>
+                        Kabel, stopkontak dan
+                        perlengkapan listrik.
+                    </p>
+                </div>
+
+
+                <div class="category-item">
+                    <div class="icon">📺</div>
+
+                    <h3>TV &amp; STB</h3>
+
+                    <p>
+                        Perlengkapan televisi
+                        dan set top box.
+                    </p>
+                </div>
+
+
+                <div class="category-item">
+                    <div class="icon">⚙️</div>
+
+                    <h3>Rumah Tangga</h3>
+
+                    <p>
+                        Peralatan elektronik
+                        kebutuhan rumah.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =====================================================
+         GALERI
+    ====================================================== -->
+    <section class="section" id="galeri">
+
+        <div class="section-heading">
+            <span>Galeri</span>
+
+            <h2>Suasana Toko</h2>
+
+            <p>
+                Lihat suasana Toko Wijaya Kusuma Elektronik.
+            </p>
+        </div>
+
+
+        <div class="gallery">
+            <img src="toko1.jpg" alt="Foto Toko 1">
+            <img src="toko2.jpg" alt="Foto Toko 2">
+            <img src="toko3.jpg" alt="Foto Toko 3">
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         LOKASI
+    ====================================================== -->
+    <section class="section">
+
+        <div class="section-heading">
+            <span>Lokasi</span>
+
+            <h2>Lokasi Toko</h2>
+        </div>
+
+
+        <div class="location">
+
+            <div class="location-info">
+
+                <h3>📍 Wijaya Kusuma Elektronik</h3>
+
+                <p>
+                    Jl. Jogorogo - Paron,
+                    Ngawi, Jawa Timur.
+                </p>
+
+                <div class="location-detail">
+                    <p>🕐 <strong>Jam Buka</strong></p>
+                    <p>07.30 - 16.30 WIB</p>
+                </div>
+
+                <div class="location-detail">
+                    <p>📞 <strong>0852-3536-7997</strong></p>
+                </div>
+
+                <a
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener"
+                    href="https://www.google.com/maps/search/?api=1&query=Jl.+Jogorogo+-+Paron,+Ngawi"
+                >
+                    📍 Buka Google Maps
+                </a>
+
+            </div>
+
+
+            <div class="map">
+                <div>
+                    <div class="map-icon">📍</div>
+
+                    <h3>Jl. Jogorogo - Paron</h3>
+
+                    <p>Ngawi, Jawa Timur</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+    <section class="contact" id="kontak">
+
+        <div class="contact-inner">
+
+            <h2>Butuh Informasi Produk?</h2>
+
+            <p>
+                Hubungi kami melalui WhatsApp
+                untuk informasi stok dan harga.
+            </p>
+
+            <div class="phone">
+                0852-3536-7997
+            </div>
+
+            <a
+                class="whatsapp-button"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/6285235367997"
+            >
+                💬 Chat WhatsApp
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+    <footer>
+
+        <h3>⚡ Toko Wijaya Kusuma Elektronik</h3>
+
+        <p>
+            Jl. Jogorogo - Paron,
+            Ngawi, Jawa Timur.
+        </p>
+
+        <p>0852-3536-7997</p>
+
+        <p>
+            © 2026 Wijaya Kusuma Elektronik
+        </p>
+
+    </footer>
+
+
+    <!-- =====================================================
+         CART OVERLAY
+    ====================================================== -->
+    <div
+        class="cart-overlay"
+        id="cartOverlay"
+        onclick="closeCart()"
+    ></div>
+
+
+    <!-- =====================================================
+         CART PANEL
+    ====================================================== -->
+    <aside
+        class="cart-panel"
+        id="cartPanel"
+        aria-label="Keranjang Belanja"
+    >
+
+        <div class="cart-header">
+
+            <h2>🛒 Keranjang Belanja</h2>
+
+            <button
+                class="cart-close"
+                type="button"
+                onclick="closeCart()"
+                aria-label="Tutup keranjang"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <div
+            class="cart-items"
+            id="cartItems"
+        ></div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>Total</span>
+
+                <strong id="cartTotal">
+                    Rp 0
+                </strong>
+            </div>
+
+            <button
+                class="clear-cart"
+                type="button"
+                onclick="clearCart()"
+            >
+                🗑️ Kosongkan Keranjang
+            </button>
+
+            <button
+                class="checkout-button"
+                type="button"
+                onclick="checkoutWhatsApp()"
+            >
+                💬 Checkout via WhatsApp
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =====================================================
+         FLOATING WHATSAPP
+    ====================================================== -->
+    <a
+        href="https://wa.me/6285235367997"
+        target="_blank"
+        rel="noopener"
+        class="floating-wa"
+        aria-label="Chat WhatsApp"
+    >
+        💬
+    </a>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+    <script>
+
+        /* =====================================================
+           DATA KERANJANG
+        ====================================================== */
+
+        let cartItems =
+            JSON.parse(
+                localStorage.getItem("wijayaCart")
+            ) || [];
+
+
+        /* =====================================================
+           FORMAT RUPIAH
+        ====================================================== */
+
+        function formatRupiah(number) {
+            return new Intl.NumberFormat("id-ID").format(number);
+        }
+
+
+        /* =====================================================
+           SIMPAN KERANJANG
+        ====================================================== */
+
+        function saveCart() {
+            localStorage.setItem(
+                "wijayaCart",
+                JSON.stringify(cartItems)
+            );
+        }
+
+
+        /* =====================================================
+           TAMBAH PRODUK
+        ====================================================== */
+
+        function addCart(name, price, image) {
+
+            const existing = cartItems.find(
+                item => item.name === name
+            );
+
+            if (existing) {
+                existing.quantity++;
+            } else {
+                cartItems.push({
+                    name,
+                    price,
+                    image,
+                    quantity: 1
+                });
+            }
+
+            saveCart();
+            updateCart();
+            openCart();
+        }
+
+
+        /* =====================================================
+           UPDATE CART
+        ====================================================== */
+
+        function updateCart() {
+
+            const cartContainer =
+                document.getElementById("cartItems");
+
+            const badge =
+                document.getElementById("cartBadge");
+
+            const totalElement =
+                document.getElementById("cartTotal");
+
+            cartContainer.innerHTML = "";
+
+            let total = 0;
+            let totalQuantity = 0;
+
+
+            if (cartItems.length === 0) {
+
+                cartContainer.innerHTML = `
+                    <div class="empty-cart">
+                        <div class="empty-cart-icon">🛒</div>
+
+                        <h3>Keranjang Kosong</h3>
+
+                        <p>
+                            Silakan pilih produk
+                            terlebih dahulu.
+                        </p>
+                    </div>
+                `;
+
+            }
+
+
+            cartItems.forEach((item, index) => {
+
+                const subtotal =
+                    item.price * item.quantity;
+
+                total += subtotal;
+                totalQuantity += item.quantity;
+
+
+                cartContainer.innerHTML += `
+                    <div class="cart-item">
+
+                        <div class="cart-item-image">
+                            <img
+                                src="${item.image}"
+                                alt="${item.name}"
+                            >
+                        </div>
+
+                        <div class="cart-item-info">
+
+                            <h4>${item.name}</h4>
+
+                            <div class="cart-item-price">
+                                Rp ${formatRupiah(item.price)}
+                            </div>
+
+                            <div class="quantity-control">
+
+                                <button
+                                    type="button"
+                                    onclick="decreaseQuantity(${index})"
+                                >
+                                    −
+                                </button>
+
+                                <span>
+                                    ${item.quantity}
+                                </span>
+
+                                <button
+                                    type="button"
+                                    onclick="increaseQuantity(${index})"
+                                >
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="cart-item-actions">
+
+                            <strong>
+                                Rp ${formatRupiah(subtotal)}
+                            </strong>
+
+                            <button
+                                class="cart-remove"
+                                type="button"
+                                onclick="removeCart(${index})"
+                                aria-label="Hapus ${item.name}"
+                            >
+                                🗑️
+                            </button>
+
+                        </div>
+
+                    </div>
+                `;
+
+            });
+
+
+            badge.innerText = totalQuantity;
+
+            totalElement.innerText =
+                "Rp " + formatRupiah(total);
+        }
+
+
+        /* =====================================================
+           TAMBAH JUMLAH
+        ====================================================== */
+
+        function increaseQuantity(index) {
+
+            cartItems[index].quantity++;
+
+            saveCart();
+            updateCart();
+        }
+
+
+        /* =====================================================
+           KURANGI JUMLAH
+        ====================================================== */
+
+        function decreaseQuantity(index) {
+
+            if (cartItems[index].quantity > 1) {
+                cartItems[index].quantity--;
+            } else {
+                cartItems.splice(index, 1);
+            }
+
+            saveCart();
+            updateCart();
+        }
+
+
+        /* =====================================================
+           HAPUS PRODUK
+        ====================================================== */
+
+        function removeCart(index) {
+
+            cartItems.splice(index, 1);
+
+            saveCart();
+            updateCart();
+        }
+
+
+        /* =====================================================
+           KOSONGKAN KERANJANG
+        ====================================================== */
+
+        function clearCart() {
+
+            if (cartItems.length === 0) {
+                return;
+            }
+
+            const confirmDelete = confirm(
+                "Yakin ingin mengosongkan keranjang?"
+            );
+
+            if (confirmDelete) {
+                cartItems = [];
+
+                saveCart();
+                updateCart();
+            }
+        }
+
+
+        /* =====================================================
+           BUKA CART
+        ====================================================== */
+
+        function openCart() {
+
+            document
+                .getElementById("cartPanel")
+                .classList.add("show");
+
+            document
+                .getElementById("cartOverlay")
+                .classList.add("show");
+
+            document.body.classList.add("cart-open");
+        }
+
+
+        /* =====================================================
+           TUTUP CART
+        ====================================================== */
+
+        function closeCart() {
+
+            document
+                .getElementById("cartPanel")
+                .classList.remove("show");
+
+            document
+                .getElementById("cartOverlay")
+                .classList.remove("show");
+
+            document.body.classList.remove("cart-open");
+        }
+
+
+        /* =====================================================
+           CHECKOUT WHATSAPP
+        ====================================================== */
+
+        function checkoutWhatsApp() {
+
+            if (cartItems.length === 0) {
+
+                alert(
+                    "Keranjang masih kosong."
+                );
+
+                return;
+            }
+
+
+            let message =
+                "Halo Toko Wijaya Kusuma Elektronik,%0A%0A";
+
+            message +=
+                "Saya ingin memesan:%0A%0A";
+
+
+            let total = 0;
+
+
+            cartItems.forEach(item => {
+
+                const subtotal =
+                    item.price * item.quantity;
+
+                total += subtotal;
+
+                message +=
+                    "• " +
+                    item.name +
+                    " x" +
+                    item.quantity +
+                    " = Rp " +
+                    formatRupiah(subtotal) +
+                    "%0A";
+            });
+
+
+            message +=
+                "%0A--------------------%0A";
+
+            message +=
+                "TOTAL: Rp " +
+                formatRupiah(total);
+
+            message +=
+                "%0A%0A" +
+                "Mohon informasi ketersediaan barang. " +
+                "Terima kasih.";
+
+
+            window.open(
+                "https://wa.me/6285235367997?text=" +
+                message,
+                "_blank"
+            );
+        }
+
+
+        /* =====================================================
+           SEARCH PRODUK
+        ====================================================== */
+
+        function searchProduct() {
+
+            const keyword =
+                document
+                    .getElementById("searchInput")
+                    .value
+                    .toLowerCase()
+                    .trim();
+
+            const products =
+                document.querySelectorAll(
+                    ".product-card"
+                );
+
+
+            products.forEach(product => {
+
+                const name =
+                    product.dataset.name.toLowerCase();
+
+                product.style.display =
+                    name.includes(keyword)
+                        ? "block"
+                        : "none";
+            });
+        }
+
+
+        /* =====================================================
+           FILTER PRODUK
+        ====================================================== */
+
+        function filterProduct(category, button) {
+
+            const products =
+                document.querySelectorAll(
+                    ".product-card"
+                );
+
+            const buttons =
+                document.querySelectorAll(
+                    ".category-btn"
+                );
+
+
+            buttons.forEach(btn => {
+                btn.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+
+            products.forEach(product => {
+
+                const show =
+                    category === "all" ||
+                    product.dataset.category === category;
+
+                product.style.display =
+                    show ? "block" : "none";
+            });
+        }
+
+
+        /* =====================================================
+           MOBILE MENU
+        ====================================================== */
+
+        function toggleMenu() {
+
+            document
+                .getElementById("navMenu")
+                .classList.toggle("show");
+        }
+
+
+        /* =====================================================
+           TUTUP MENU SAAT LINK DIKLIK
+        ====================================================== */
+
+        document
+            .querySelectorAll(".nav-menu a")
+            .forEach(link => {
+
+                link.addEventListener(
+                    "click",
+                    () => {
+
+                        document
+                            .getElementById("navMenu")
+                            .classList.remove("show");
+
+                    }
+                );
+
+            });
+
+
+        /* =====================================================
+           TUTUP CART DENGAN ESC
+        ====================================================== */
+
+        document.addEventListener(
+            "keydown",
+            event => {
+
+                if (event.key === "Escape") {
+                    closeCart();
+                }
+
+            }
+        );
+
+
+        /* =====================================================
+           LOAD CART SAAT WEBSITE DIBUKA
+        ====================================================== */
+
+        updateCart();
+
+    </script>
+
+</body>
+</html>
